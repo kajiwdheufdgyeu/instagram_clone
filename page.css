@@ -13,7 +13,7 @@ body {
 .login {
   width: 280px;
   height: 260px;
-  margin-top: 15px;
+  margin-top: 12px;
   margin-left: 4px;
   background: #ffffff;
   border: 1px solid #dbdbdb;
@@ -43,7 +43,7 @@ body {
   cursor: pointer;
 }
 .phone {
-  margin-top: 40px;
+  margin-top: 32px;
   width: 340px;
   height: 500px;
 }
