@@ -1,2 +1,2 @@
 # instagram_clone
-![foto do projeto](img/imagem.png)
+![foto do projeto](img/image/imagem.png)
