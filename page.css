@@ -1,0 +1,129 @@
+html,
+body {
+  margin:0;
+  background:#fafafa;
+}
+.container {
+  height:100vh;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
+.login {
+  width: 340px;
+  height: 300px;
+  margin-top:0;
+  margin-left:4px;
+  background:#ffffff;
+  border:1px solid #dbdbdb;
+  text-align:center;
+}
+.logo {
+  width:175px;
+  height:51px;
+  margin-top:36;
+  margin-bottom:0;
+}
+.image {
+  height:84px;
+  width:84px;
+  border-radius:75px;
+  background-size:cover;
+  margin-top:8px;
+}
+.btn {
+  font-family:Arial;
+  font-weight:700;
+  height:30px;
+  width:220px;
+  margin-top:32px;
+  font-size:13px;
+  color:#ffffff;
+  border:1px solid transparent;
+  border-radius:4px;
+  background-color:#0095f6;
+  background-color:rgba(var(--d69, 0, 149, 246), 1);
+  cursor:pointer;
+}
+.phone {
+  margin-top:44px;
+  width:425px;
+  height:618px;
+}
+.content {
+  width:350;
+  height:606px;
+  margin-top:130px;
+}
+.descri {
+  margin-top:20px;
+  font-family:Helvetica;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:700;
+  color:#0095f6;
+}
+.quadrado {
+  width: 342px;
+  height:100px;
+  background-color:#ffffff;
+  border: 1px solid#dbdbdb;
+  margin-left:4px;
+  margin-top:10px;
+  text-align:center;
+}
+.letter {
+  color:#8e8e8e;
+  font-size:14px;
+  font-family:Helvetica;
+  margin-bottom:0;
+  margin-top:30px;
+}
+.link-text {
+  font-family:Arial;
+  font-weight:700;
+  font-size:14px;
+  text-decoration:none;
+  color:#0095f6;
+}
+.sei_lá {
+  margin:2px;
+  font-size:14px;
+  color:#8e8e8e;
+}
+.apps {
+  font-size:14px;
+  font-family:Helvetica;
+  color:#262626;
+  text-align:center;
+  width:340px;
+  height:150px;
+  padding:0px;
+}
+
+.teste {
+  margin-left:3px;
+  width:136px;
+  height:40px;
+}
+
+@media screen and (max-width:881px) {
+  .phone {
+    display: none;
+  }
+}
+@media screen and (max-width:400px) {
+  .phone {
+    display:none;
+  }
+  .login {
+    border:none;
+    background:#fafafa;
+    margin-top:0;
+  }
+  .quadrado {
+    border:none;
+    background:#fafafa;
+  }
+}
